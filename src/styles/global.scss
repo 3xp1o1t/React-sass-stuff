@@ -1,0 +1,23 @@
+@import './variables.scss';
+@import './responsive.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: $dark-bg;
+  color: $white-text;
+}
+
+.container {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

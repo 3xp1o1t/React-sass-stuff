@@ -1,27 +1,44 @@
-# React + TypeScript + Vite
+# React Typescript Testing Stuff
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Contributing](../CONTRIBUTING.md)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About <a name = "about"></a>
 
-## Expanding the ESLint configuration
+Just a repo for testing libs with react and ts.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started <a name = "getting_started"></a>
 
-- Configure the top-level `parserOptions` property like this:
+We start with a Vite + React + TypeScript + SWC
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Prerequisites
+
+```bash
+- npm create vite@latest
+- npm install sass
+- clean out the vite template
+- npm install react-router-dom
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installing
+
+```bash
+- git clone https://github.com/3xp1o1t/React-sass-stuff
+- cd react-sass-stuff
+- npm install
+```
+
+```bash
+- npm run dev
+```
+
+go to http://127.0.0.1:5173/ for a preview
+
+## Usage <a name = "usage"></a>
+
+Just click, test and report any bug :v.
